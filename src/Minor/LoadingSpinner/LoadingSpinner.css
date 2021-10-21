@@ -1,0 +1,36 @@
+.loading-img {
+    width: 50%;
+    height: 54%;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .loading-img {
+        width: 35%;
+        height: 39%;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .loading-img {
+        width: 30%;
+        height: 34%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .loading-img {
+        width: 25%;
+        height: 29%;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .loading-img {
+        width: 20%;
+        height: 29%;
+    }
+}
